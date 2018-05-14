@@ -1,0 +1,3 @@
+#!/bin/bash
+
+milight --host milight.aviatis.com $(if [[ $1 == 0 ]]; then echo green; else echo red; fi) on off
